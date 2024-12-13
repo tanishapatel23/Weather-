@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="alert">
+      <p id="p">This webpage would like to access your current location</p>
+      <p class="buttons" id="p">
+      <button onclick="warning()">Block</button>
+      <button onclick="openPopUp()">Allow</button>
+      </p>
+    </div>
+    <div class="app">
+      <div class="container">
+        <div class="mainPage">
+          <h2 class="city">London</h2>
+          <p class="ele">Today</p>
+          <div class="temp">
+            <img src="images/clouds.png" />
+            <h1>9°</h1>
+          </div>
+          <p class="ele min-max">6°/10° Feels like 5°</p>
+          <p class="ele weather">Partly Cloudy</p>
+        </div>
+        <div class="details">
+          <div class="data">
+            <i class="fa-solid fa-droplet icon" style="color: #ffffff"></i>
+            <p class="prop">Humidity</p>
+            <p class="value1">71%</p>
+          </div>
+          <div class="data">
+            <i class="fa-solid fa-gauge-simple icon" style="color: #ffffff"></i>
+            <p class="prop">Pressure</p>
+            <p class="value2">1001.0 mb</p>
+          </div>
+          <div class="data">
+            <i class="fa-solid fa-wind icon" style="color: #ffffff"></i>
+            <p class="prop">Wind Speed</p>
+            <p class="value3">29.9 kph</p>
+          </div>
+          <div class="data">
+            <i class="fa-solid fa-fan icon" style="color: #ffffff"></i>
+            <p class="prop">Wind Direction</p>
+            <p class="value4">W</p>
+          </div>
+          <div class="data">
+            <i
+              class="fa-solid fa-cloud-showers-heavy icon"
+              style="color: #ffffff"
+            ></i>
+            <p class="prop">Precipitation</p>
+            <p class="value5">0.1mm</p>
+          </div>
+          <div class="data">
+            <i class="fa-regular fa-eye icon" style="color: #ffffff"></i>
+            <p class="prop">Visibility</p>
+            <p class="value6">10.0km</p>
+          </div>
+          <div class="data">
+            <i
+              class="fa-solid fa-circle-radiation icon"
+              style="color: #ffffff"
+            ></i>
+            <p class="prop">UV Index</p>
+            <p class="value7">2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

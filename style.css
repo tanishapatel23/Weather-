@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #1c1b1b;
+  position: fixed;
+  left: 16%;
+}
+.app{
+  display: none;
+  transition: transform 4s;
+}
+.container {
+  color: white;
+  background-color: #5397e2;
+  width: 130vh;
+  height: fit-content;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 15% 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  border: solid rgb(255, 255, 255) 2px;
+}
+.mainpage {
+  width: 70vh;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-right: 100vh;
+}
+.details {
+  width: 70vh;
+  height: fit-content;
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: #6aa6e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+}
+.data {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.temp {
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icon {
+  width: 15vh;
+  padding: 10px;
+  margin-left: -3vh;
+}
+.prop {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  margin-left: -3vh;
+
+}
+.value1,.value2,.value3,.value4,.value5,.value6,.value7 {
+  width: 25vh;
+  padding: 10px;
+  text-align: right;
+}
+.ele {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 5px;
+}
+img {
+  width: 10vh;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+/*Pop Up*/
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 80vh;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 20px;
+}
+#p { margin: 12px; }
+.alert .buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.alert button{
+  width: 25vh;
+  height: auto;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+}
